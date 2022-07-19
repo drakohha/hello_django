@@ -7,4 +7,4 @@ def about(request):
     return render(request,'about.html',{'Grotting': a})
 
 def home(request):
-    return HttpResponse('this is my home')
+    return render(request,'home.html')
